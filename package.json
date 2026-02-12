@@ -1,0 +1,9 @@
+{
+  "name": "cv",
+  "private": true,
+  "scripts": {
+    "build": "latexmk -synctex=1 -interaction=nonstopmode -file-line-error -pdf cv.tex && latexmk -c cv.tex",
+    "watch": "bun --watch run build",
+    "clean": "latexmk -C cv.tex"
+  }
+}
