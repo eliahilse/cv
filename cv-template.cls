@@ -42,6 +42,13 @@
   \vspace{0.1em}
 }
 
+% single-line entry: title, right meta, date
+\newcommand{\sideentry}[3]{%
+  \vspace{0.1em}
+  \textbf{#1} \hfill #2~$\cdot$~\textit{#3}
+  \vspace{0.1em}
+}
+
 % skills row: label + content
 \newcommand{\skillrow}[2]{%
   \textbf{#1:} #2
